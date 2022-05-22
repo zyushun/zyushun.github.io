@@ -1,0 +1,61 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+==Yushun Zhang
+
+~~~
+{}{img_left}{images/lzq.jpg}{alt text}{131}{160}{}
+Ph.D student,\n
+[https://sds.cuhk.edu.cn/en School of Data Science], \n
+[https://www.cuhk.edu.cn/en The Chinese University of Hong Kong, Shenzhen, China]\n
+
+Email: /yushun/ \[@\] link\[DOT\] cuhk \[DOT\] edu \[DOT\] cn
+~~~
+
+== About me
+I'm a Ph.D student in [https://sds.cuhk.edu.cn/en School of Data Science] at the Chinese University of Hong Kong, Shenzhen, China. I'm honorable to be advised by [https://scholar.google.com/citations?user=dW3gcXoAAAAJ&hl=en Prof. Zhi-Quan Luo].  I’m also very fortunate to collaborate closely with [https://ruoyus.github.io Prof. Ruoyu Sun]. My research focuses on optimization and deep learning. 
+Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology  [http://www.sustech.edu.cn/en/ (SUSTech)]. 
+
+
+== Publications 
+
+($^*$: Equal contribution, alphabetically ordered.)
+
+Adam Can Converge with Proper $\beta_1$ and $\beta_2$ *Preprint*
+*Yushun Zhang*, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo \n
+
+[https://iclr-blog-track.github.io/2022/03/25/does-adam/ Does Adam Converge and When?]. *ICLR Blog Track 2022* \n
+*Yushun Zhang*, Congliang Chen,  Zhi-Quan Luo
+
+[https://openreview.net/forum?id=X0nrKAXu7g-  HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning] *ICLR Blog Track 2022*
+(This work is also selected as  Oral presentation at [https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=21865 NeurIPS workshop, 2021]) \n
+Ziniu Li, Yingru Li, *Yushun Zhang*, Tong Zhang, Zhi-Quan Luo
+
+
+[https://openreview.net/forum?id=K_MD-PMTLtA When Expressivity Meets Trainability: Fewer than n Neurons Can Work] *NeurIPS, 2021*
+
+Jiawei Zhang$^*$, *Yushun Zhang$^*$*, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo
+
+[\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2020.1814794  Fast QLB algorithm and hypothesis tests in logistic model for ophthalmologic bilateral correlated data] *Journal of Biopharmaceutical Statistics, 2020*
+
+ Yiqi Lin$^*$, *Yushun Zhang$^*$*, Guoliang Tian, Changxing Ma (this work is done in  Sustech)
+
+
+
+
+== Awards
+Best Presentation Award (1st place), 3rd Tsinghua-Berkeley workshop on Learning Theory, 2021
+
+Magna cum laude of SUSTech, 2019
+
+Outstanding graduation thesis, SUSTech, 2019
+
+Scholarship Award for Excellence, Mathematics department, SUSTech (top 10 students) , 2018
+
+
+
+
+== Services
+Reviewer for NeurIPS, ICML, AISTATS
+
+
+== CV
+View my curriculum vitae [files/my_cv.pdf here].
