@@ -4,17 +4,17 @@
 ~~~
 {}{img_left}{images/photo1.jpeg}{alt text}{270}{360}{}
 Ph.D student,\n
-[https://sds.cuhk.edu.cn/en School of Data Science], \n
-[https://www.cuhk.edu.cn/en The Chinese University of Hong Kong, Shenzhen, China]\n
+School of Data Science, \n
+The Chinese University of Hong Kong, Shenzhen, China 
 
-Email: yushunzhang AT link.cuhk.edu.cn
+Email: yushunzhang AT link.cuhk.edu.cn 
 
 [https://scholar.google.com/citations?user=dHUiyDkAAAAJ&hl=en Google Scholar], [https://twitter.com/ericzhang0410 Twitter], [https://www.instagram.com/ericzhang0410/ Instagram]
 ~~~
 
 == About me
-I'm a Ph.D student in [https://sds.cuhk.edu.cn/en School of Data Science] at the Chinese University of Hong Kong, Shenzhen, China. I'm honorable to be advised by [https://scholar.google.com/citations?user=dW3gcXoAAAAJ&hl=en Prof. Zhi-Quan Luo].  I’m also very fortunate to work closely with [https://ruoyus.github.io Prof. Ruoyu Sun (UIUC)]. My research focuses on optimization and deep learning. 
-Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology  [http://www.sustech.edu.cn/en/ (SUSTech)]. 
+I'm a Ph.D student in [https://sds.cuhk.edu.cn/en School of Data Science] at the Chinese University of Hong Kong, Shenzhen, China. I'm honorable to be advised by [https://scholar.google.com/citations?user=dW3gcXoAAAAJ&hl=en Prof. Zhi-Quan Luo].  I’m also very fortunate to work closely with [https://ruoyus.github.io Prof. Ruoyu Sun (UIUC)]. 
+Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology  [http://www.sustech.edu.cn/en/ (SUSTech)].  My research focuses on optimization and deep learning. 
 
 == Preprints
 
@@ -24,7 +24,7 @@ Adam Can Converge with Proper $\beta_1$ and $\beta_2$  \n
 
 == Publications 
 
-($^*$: Equal contribution, alphabetically ordered.)
+(*: Equal contribution, alphabetically ordered.)
 
 
 [https://iclr-blog-track.github.io/2022/03/25/does-adam/ Does Adam Converge and When?] \n
@@ -49,7 +49,9 @@ NeurIPS, 2021
 
 
 == Awards
-Best Presentation Award (1st place), 3rd Tsinghua-Berkeley workshop on Learning Theory, 2021
+Best Presentation Award (1st place), 3rd Tsinghua-Berkeley workshop on Learning Theory, 2021\n
+(Topic: When Expressivity Meets Trainability: Width < n Can Work)
+
 
 Magna cum laude of SUSTech, 2019
 
