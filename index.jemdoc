@@ -23,8 +23,7 @@ Previously, I did my undergraduate study in the Department of Mathematics at Sou
 [https://arxiv.org/abs/2208.09632 Adam Can Converge Without Any Modification on Update Rules]  \n
 *Yushun Zhang*, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo 
 
-[https://arxiv.org/abs/2208.09900 Provable Adaptivity in Adam] \n
-Bohan Wang, *Yushun Zhang*, Huishuai Zhang, Qi Meng, Zhi-Ming Ma, Tie-Yan Liu, Wei Chen
+
 
 == Publications 
 
@@ -53,7 +52,12 @@ NeurIPS, 2021
 
 
 == Awards
-Best Presentation Award (1st place), [https://www.tbsi.edu.cn/wolt/index.html 3rd Tsinghua-Berkeley workshop on Learning Theory, 2021]\n
+Best Paper Presentation Award (1st place), [https://mp.weixin.qq.com/s/IBED0dwbegS0PZQMuk656Q 2nd Doctoral and Postdoctoral Daoyuan Academic Forum, 2022]\n
+- (Topic: Does Adam Converge and When?)\n
+- (Slides can be seen at [files/Adam_talk_sribd.pptx here].)
+
+
+Best Paper Presentation Award (1st place), [https://www.tbsi.edu.cn/wolt/index.html 3rd Tsinghua-Berkeley workshop on Learning Theory, 2021]\n
 - (Topic: When Expressivity Meets Trainability: Width < n Can Work)\n
 - (A short version of this talk can be viewed [https://slideslive.com/38970555/when-expressivity-meets-trainability-fewer-than-n-neurons-can-work?ref=recommended here].)
 
