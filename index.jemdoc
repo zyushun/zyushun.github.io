@@ -5,23 +5,24 @@
 {}{img_left}{images/photo1.jpeg}{alt text}{270}{360}{}
 Yushun Zhang (张雨舜)\n
 Ph.D student,\n
+School of Data Science, \n
 The Chinese University of Hong Kong, Shenzhen, China 
 
 Email: yushunzhang AT link DOT cuhk DOT edu DOT cn 
 
-
+[https://scholar.google.com/citations?user=dHUiyDkAAAAJ&hl=en \[Google Scholar\]] 
+[https://twitter.com/ericzhang0410 \[Twitter\]] [https://www.instagram.com/ericzhang0410/ \[Instagram\] [https://www.zhihu.com/people/zhang-yu-shun-9  \[Zhihu\]]]
 ~~~
 
 == About me
-I'm a Ph.D student in School of Data Science at The Chinese University of Hong Kong, Shenzhen, China. 
-
+I'm a Ph.D student in School of Data Science at The Chinese University of Hong Kong, Shenzhen, China. I'm very proud to be advised by [https://scholar.google.com/citations?user=dW3gcXoAAAAJ&hl=en Prof. Zhi-Quan (Tom) Luo].  I’m also very fortunate to work closely with [https://ruoyus.github.io Prof. Ruoyu Sun (UIUC)]. 
 Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). 
- 
+ My research focuses on optimization and deep learning. My goal is to become a leading expert in my field in the next few years.
 
 == Preprints
 
 [https://arxiv.org/abs/2208.09632 Adam Can Converge Without Any Modification on Update Rules]  \n
-*Yushun Zhang*, C Chen, N Shi, R Sun,  Z Luo 
+*Yushun Zhang*, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo 
 
 
 
@@ -30,8 +31,22 @@ Previously, I did my undergraduate study in the Department of Mathematics at Sou
 (*: Equal contribution, alphabetically ordered.)
 
 
+[https://iclr-blog-track.github.io/2022/03/25/does-adam/ Does Adam Converge and When?] \n
+*Yushun Zhang*, Congliang Chen,  Zhi-Quan Luo \n
+ICLR Blog Track, 2022
+
+[https://openreview.net/forum?id=X0nrKAXu7g-  HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning]  \n
+Ziniu Li, Yingru Li, *Yushun Zhang*, Tong Zhang, Zhi-Quan Luo \n
+ICLR, 2022 \n
+(This work is also selected as  Oral presentation at [https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=21865 NeurIPS workshop, 2021]) \n
+
+
+[https://openreview.net/forum?id=K_MD-PMTLtA When Expressivity Meets Trainability: Fewer than n Neurons Can Work]  \n
+Jiawei Zhang\*, *Yushun Zhang\* *, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo \n
+NeurIPS, 2021
+
 [\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2020.1814794  Fast QLB algorithm and hypothesis tests in logistic model for ophthalmologic bilateral correlated data] \n
- Y Lin\*, *Yushun Zhang\* *, G Tian, C Ma (this work is done in  Sustech) \n
+ Yiqi Lin\*, *Yushun Zhang\* *, Guoliang Tian, Changxing Ma (this work is done in  Sustech) \n
  Journal of Biopharmaceutical Statistics, 2020
 
 
@@ -43,7 +58,9 @@ Best Paper Presentation Award (1st place), [https://mp.weixin.qq.com/s/IBED0dwbe
 - (Slides can be seen at [files/Adam_talk_sribd.pptx here].)
 
 
-
+Best Paper Presentation Award (1st place), [https://www.tbsi.edu.cn/wolt/index.html 3rd Tsinghua-Berkeley workshop on Learning Theory, 2021]\n
+- (Topic: When Expressivity Meets Trainability: Width < n Can Work)\n
+- (A short version of this talk can be viewed [https://slideslive.com/38970555/when-expressivity-meets-trainability-fewer-than-n-neurons-can-work?ref=recommended here].)
 
 Magna cum laude of SUSTech, 2019
 
@@ -54,8 +71,47 @@ Scholarship Award for Excellence, Mathematics department, SUSTech (top 10 studen
 
 
 
+== Services
+
+==== Reviewer
+
+I serve as a reviewer for NeurIPS, COLT, ICML, AISTATS.
+
+==== Teaching Assistant (by time)
+
+- DDA 6060: Machine Learning, by Prof. Hongyuan Zha \& Prof. Shuang Li (2022 Spring)
+
+- DDA 4002: Multivariate Statistics, by Prof. Zhaoyuan Li (2021 Autumn)
+
+- DDA 4250: Mathematics for Deep Learning, by Prof. Arnulf Jentzen (2021 Spring)
+
+- MFE 5100: Optimization, by Prof. Zizhuo Wang (2020 Autumn)
+
+- STA 2002: Probalility and Statistics, by Prof. Xinyun Chen  (2020 Summer)
+
+-  CSC 4020: Fundationals of Machine Learning, by Prof. Hongyuan Zha (2020 Spring)
+
+- MAT 2040: Linear algebra, by Prof. Shenghao Yang (2019 Autumn)
+
+- MAT 7035: Computational Statistics, by Prof. Guoliang Tian (SUSTech) (2018 Autumn)
+ 
+- MA 204: Mathematical Statistics, by Prof. Guoliang Tian (SUSTech)  (2018 Spring)
+
+
 == Experiences
 
-I spent a great time as a exchange undergraduate student at Mathematics department, UC San Diego, 2019 Spring.
+I spent a great time as an exchange undergraduate student at Mathematics department, UC San Diego, 2019 Spring.
+
+== CV
+View my curriculum vitae [files/my_cv_2.pdf here].
+
+
+
+
+
+
+
+
+
 
 
