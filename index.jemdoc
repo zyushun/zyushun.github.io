@@ -21,33 +21,37 @@ Previously, I did my undergraduate study in the Department of Mathematics at Sou
 
 == Preprints
 
-[https://arxiv.org/abs/2208.09632 Adam Can Converge Without Any Modification on Update Rules]  \n
-*Yushun Zhang*, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo 
-
+[https://arxiv.org/abs/2208.09900 Provable Adaptivity in Adam]  \n
+Bohan Wang, *Yushun Zhang*, Huishuai Zhang, Qi Meng, Zhi-Ming Ma, Tie-Yan Liu, Wei Chen \n
+Under Review
 
 
 == Publications 
 
 (*: Equal contribution, alphabetically ordered.)
 
+[https://nips.cc/virtual/2022/spotlight/65228 Adam Can Converge Without Any Modification on Update Rules]  \n
+*Yushun Zhang*, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo  \n
+NeurIPS 2022 (Spotlight, 5\% of 10,000+ submissions)
+
 
 [https://iclr-blog-track.github.io/2022/03/25/does-adam/ Does Adam Converge and When?] \n
 *Yushun Zhang*, Congliang Chen,  Zhi-Quan Luo \n
-ICLR Blog Track, 2022
+ICLR Blog Track 2022
 
 [https://openreview.net/forum?id=X0nrKAXu7g-  HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning]  \n
 Ziniu Li, Yingru Li, *Yushun Zhang*, Tong Zhang, Zhi-Quan Luo \n
-ICLR, 2022 \n
+ICLR 2022 \n
 (This work is also selected as  Oral presentation at [https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=21865 NeurIPS workshop, 2021]) \n
 
 
 [https://openreview.net/forum?id=K_MD-PMTLtA When Expressivity Meets Trainability: Fewer than n Neurons Can Work]  \n
 Jiawei Zhang\*, *Yushun Zhang\* *, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo \n
-NeurIPS, 2021
+NeurIPS 2021
 
 [\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2020.1814794  Fast QLB algorithm and hypothesis tests in logistic model for ophthalmologic bilateral correlated data] \n
  Yiqi Lin\*, *Yushun Zhang\* *, Guoliang Tian, Changxing Ma (this work is done in  Sustech) \n
- Journal of Biopharmaceutical Statistics, 2020
+ Journal of Biopharmaceutical Statistics 2020
 
 
 
@@ -56,6 +60,9 @@ NeurIPS, 2021
 Best Paper Presentation Award (1st place), [https://mp.weixin.qq.com/s/IBED0dwbegS0PZQMuk656Q 2nd Doctoral and Postdoctoral Daoyuan Academic Forum, 2022]\n
 - (Topic: Does Adam Converge and When?)\n
 - (Slides can be seen at [files/Adam_talk_sribd.pptx here].)
+- (A short version of this talk can be viewed [https://nips.cc/virtual/2022/poster/53721 here].)
+
+
 
 
 Best Paper Presentation Award (1st place), [https://www.tbsi.edu.cn/wolt/index.html 3rd Tsinghua-Berkeley workshop on Learning Theory, 2021]\n
@@ -66,7 +73,7 @@ Magna cum laude of SUSTech, 2019
 
 Outstanding graduation thesis, SUSTech, 2019
 
-Scholarship Award for Excellence, Mathematics department, SUSTech (top 10 students) , 2018
+Scholarship Award for Excellence, Mathematics department, SUSTech (Top 10 students) , 2018
 
 
 
@@ -75,7 +82,7 @@ Scholarship Award for Excellence, Mathematics department, SUSTech (top 10 studen
 
 ==== Reviewer
 
-I serve as a reviewer for NeurIPS, COLT, ICML, AISTATS.
+I serve as a reviewer for machine learning conferences including NeurIPS, ICLR, COLT, ICML, AISTATS, as well as journals including JMLR and TMLR.
 
 ==== Teaching Assistant (by time)
 
