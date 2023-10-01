@@ -22,7 +22,7 @@ Previously, I did my undergraduate study in the Department of Mathematics at Sou
 == Preprints
 
 [https://arxiv.org/abs/2208.09900 Provable Benefit of Adaptivity in Adam]  \n
-Bohan Wang, *Yushun Zhang*, Huishuai Zhang, Qi Meng, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen \n
+Bohan Wang\*, *Yushun Zhang\* *, Huishuai Zhang, Qi Meng, Ruoyu Sun, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen \n
 Under Review
 
 
@@ -32,7 +32,7 @@ Under Review
 
 [https://nips.cc/virtual/2022/spotlight/65228 Adam Can Converge Without Any Modification on Update Rules]  \n
 *Yushun Zhang*, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo  \n
-NeurIPS 2022 
+NeurIPS 2022 (Spotlight)
 
 
 [https://iclr-blog-track.github.io/2022/03/25/does-adam/ Does Adam Converge and When?] \n
@@ -82,9 +82,11 @@ Scholarship Award for Excellence, Mathematics department, SUSTech (Top 10 studen
 
 ==== Reviewer
 
-I serve as a reviewer for machine learning conferences including NeurIPS, ICLR, COLT, ICML, AISTATS, as well as journals including JMLR and TMLR.
+I serve as a reviewer for machine learning conferences including NeurIPS, ICLR, ICML, COLT, AISTATS, as well as journals including JMLR and TMLR.
 
 ==== Teaching Assistant (by time)
+
+- DDA4300: Optimization for Machine Learning, by Prof. Yinyu Ye (2023 Spring)
 
 - DDA 6060: Machine Learning, by Prof. Hongyuan Zha \& Prof. Shuang Li (2022 Spring)
 
