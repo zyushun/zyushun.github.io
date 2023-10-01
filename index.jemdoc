@@ -17,7 +17,7 @@ Email: yushunzhang AT link DOT cuhk DOT edu DOT cn
 == About me
 I'm a Ph.D student in School of Data Science at The Chinese University of Hong Kong, Shenzhen, China. I'm very proud to be advised by [https://scholar.google.com/citations?user=dW3gcXoAAAAJ&hl=en Prof. Zhi-Quan (Tom) Luo].  I’m also very fortunate to work closely with [https://ruoyus.github.io Prof. Ruoyu Sun (UIUC)]. 
 Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). 
- My research focuses on optimization and deep learning. I aim to do theory with practical impact. My goal is to become a leading expert in my field in the next few years.
+ My research focuses on optimization and deep learning. I aim to solve practical engineering problems. My goal is to become a leading expert in my field in the next few years.
 
 == Preprints
 
@@ -32,7 +32,7 @@ Under Review
 
 [https://nips.cc/virtual/2022/spotlight/65228 Adam Can Converge Without Any Modification on Update Rules]  \n
 *Yushun Zhang*, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo  \n
-NeurIPS 2022 (Spotlight)
+NeurIPS 2022 
 
 
 [https://iclr-blog-track.github.io/2022/03/25/does-adam/ Does Adam Converge and When?] \n
@@ -50,24 +50,39 @@ Jiawei Zhang\*, *Yushun Zhang\* *, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo \n
 NeurIPS 2021
 
 [\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2020.1814794  Fast QLB algorithm and hypothesis tests in logistic model for ophthalmologic bilateral correlated data] \n
- Yiqi Lin\*, *Yushun Zhang\* *, Guoliang Tian, Changxing Ma (this work is done in  Sustech) \n
- Journal of Biopharmaceutical Statistics 2020
+ Yiqi Lin\*, *Yushun Zhang\* *, Guoliang Tian, Changxing Ma \n
+ Journal of Biopharmaceutical Statistics 2020 \n
+ (This work is done in Sustech) 
 
 
+
+== Invited Talks
+
+*Sep 2023*: I gave a talk at Tsinghua University, hosted by [https://scholar.google.com/citations?user=zX7i1EkAAAAJ&hl=en Prof. Jian Li]. Thanks Prof. Li for the invitation!
+
+- Topic: Converge or Diverge? A Story of Adam
+- Slides can be seen [files/Adam_talk_Tsinghua.pdf here]
+
+
+
+*Jan 2023*: I gave a talk on at Google Brain, hosted by [https://scholar.google.nl/citations?user=yyIoQu4AAAAJ&hl=en Dr. Diederik P. Kingma]. Thanks Dr. Kingma for the invitation! 
+
+- Topic: Adam Can Converge Without Any Modification on Update Rules 
+- Slides can be seen  [files/Adam_talk_google_short.pdf here]
 
 
 == Awards
 Best Paper Presentation Award (1st place), [https://mp.weixin.qq.com/s/IBED0dwbegS0PZQMuk656Q 2nd Doctoral and Postdoctoral Daoyuan Academic Forum, 2022]\n
-- (Topic: Does Adam Converge and When?)\n
-- (Slides can be seen at [files/Adam_talk_sribd.pptx here].)
-- (A short version of this talk can be viewed [https://nips.cc/virtual/2022/poster/53721 here].)
+- Topic: Does Adam Converge and When?\n
+- Slides can be seen  [files/Adam_talk_sribd.pptx here].\n
+- A short version of this talk can be viewed [https://nips.cc/virtual/2022/poster/53721 here].
 
 
 
 
 Best Paper Presentation Award (1st place), [https://www.tbsi.edu.cn/wolt/index.html 3rd Tsinghua-Berkeley workshop on Learning Theory, 2021]\n
-- (Topic: When Expressivity Meets Trainability: Width < n Can Work)\n
-- (A short version of this talk can be viewed [https://slideslive.com/38970555/when-expressivity-meets-trainability-fewer-than-n-neurons-can-work?ref=recommended here].)
+- Topic: When Expressivity Meets Trainability: Width < n Can Work\n
+- A short version of this talk can be viewed [https://slideslive.com/38970555/when-expressivity-meets-trainability-fewer-than-n-neurons-can-work?ref=recommended here].
 
 Magna cum laude of SUSTech, 2019
 
