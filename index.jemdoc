@@ -2,7 +2,7 @@
 ==Yushun Zhang
 
 ~~~
-{}{img_left}{images/hk.jpeg}{alt text}{290}{430}{}
+{}{img_left}{images/red.jpeg}{alt text}{179}{239}{}
 Yushun Zhang (张雨舜)\n
 Ph.D student,\n
 School of Data Science, \n
@@ -19,7 +19,7 @@ I'm a Ph.D student in School of Data Science at The Chinese University of Hong K
 Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). 
 
 
- My research focuses on optimization and deep learning, and especially, large language models. I aim to solve practical engineering problems in these areas. My goal is to become a leading expert in my field in the next few years.
+ My research focuses on optimization and deep learning, and especially, large language models. I aim to solve practical engineering problems in these areas. 
 
 == Preprints
 
@@ -79,7 +79,14 @@ NeurIPS 2021
 - Slides can be seen  [files/Adam_talk_google_short.pdf here]
 
 
-== Awards
+== Awards (By time)
+
+
+Duan Yongping Outstanding Resesearch Award (1st place), 2023
+
+Teaching Assistant Award, School of Data Science, 2023
+
+
 Best Paper Presentation Award (1st place), [https://mp.weixin.qq.com/s/IBED0dwbegS0PZQMuk656Q 2nd Doctoral and Postdoctoral Daoyuan Academic Forum, 2022]\n
 - Topic: Does Adam Converge and When?\n
 - Slides can be seen  [files/Adam_talk_sribd.pptx here].\n
