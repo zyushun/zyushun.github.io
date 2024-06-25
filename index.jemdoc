@@ -19,22 +19,30 @@ I'm a Ph.D student in School of Data Science at The Chinese University of Hong K
 Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). 
 
 
- My research focuses on optimization and deep learning, and especially, large language models. I aim to solve practical engineering problems in these areas. 
+ My research focuses on optimization, deep learning, and especially, large language models. I aim to solve practical engineering problems in these areas. 
 
 == Preprints
+
+[http://arxiv.org/abs/2406.16793 Adam-mini:  Use Fewer Learning Rates To Gain More] \n
+*Yushun Zhang\* *, Congliang Chen\*,  Ziniu Li, Tian Ding, Chenwei Wu, Yinyu Ye, Zhi-Quan Luo, Ruoyu Sun
+
+
 
 [https://arxiv.org/abs/2402.16788 Why Transformers Need Adam: A Hessian Perspective] \n
 *Yushun Zhang*, Congliang Chen, Tian Ding, Ziniu Li, Ruoyu Sun, Zhi-Quan Luo
 
 
-[https://arxiv.org/abs/2208.09900 Provable Benefit of Adaptivity in Adam]  \n
-Bohan Wang, *Yushun Zhang*, Huishuai Zhang, Qi Meng, Ruoyu Sun, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen \n
+
 
 
 
 == Publications 
 
-(*: Equal contribution, alphabetically ordered.)
+(*: Equal contribution.)
+
+[https://arxiv.org/abs/2208.09900 Provable Adaptivity of Adam under Non-Uniform Smoothness]  \n
+Bohan Wang\*, *Yushun Zhang\* *, Huishuai Zhang, Qi Meng, Ruoyu Sun, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen \n
+KDD 2024
 
 [https://arxiv.org/abs/2310.10505 ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models] \n
 Ziniu Li, Tian Xu, *Yushun Zhang*, Zhihang Lin, Yang Yu, Ruoyu Sun, Zhi-Quan Luo \n
