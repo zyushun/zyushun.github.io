@@ -19,32 +19,20 @@ I'm a Ph.D student in School of Data Science at The Chinese University of Hong K
 Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). 
 
 
- My research focuses on optimization, deep learning, and especially, large language models. I aim to solve practical engineering problems in these areas. 
+ My research focuses on optimization, deep learning, and especially, large language models. I aim to solve practical problems in these areas. 
 
-== Preprints
+== Research that I lead or co-lead
 
 [http://arxiv.org/abs/2406.16793 Adam-mini:  Use Fewer Learning Rates To Gain More] \n
-*Yushun Zhang\* *, Congliang Chen\*,  Ziniu Li, Tian Ding, Chenwei Wu, Yinyu Ye, Zhi-Quan Luo, Ruoyu Sun
+*Yushun Zhang\* *, Congliang Chen\*,  Ziniu Li, Tian Ding, Chenwei Wu, Yinyu Ye, Zhi-Quan Luo, Ruoyu Sun \n
+Preprint
 
 
 
 [https://arxiv.org/abs/2402.16788 Why Transformers Need Adam: A Hessian Perspective] \n
-*Yushun Zhang*, Congliang Chen, Tian Ding, Ziniu Li, Ruoyu Sun, Zhi-Quan Luo
+*Yushun Zhang*, Congliang Chen, Tian Ding, Ziniu Li, Ruoyu Sun, Zhi-Quan Luo \n
+Preprint
 
-
-
-
-
-
-== Publications 
-
-[https://arxiv.org/abs/2208.09900 Provable Adaptivity of Adam under Non-Uniform Smoothness]  \n
-Bohan Wang, *Yushun Zhang*, Huishuai Zhang, Qi Meng, Ruoyu Sun, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen \n
-KDD 2024
-
-[https://arxiv.org/abs/2310.10505 ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models] \n
-Ziniu Li, Tian Xu, *Yushun Zhang*, Zhihang Lin, Yang Yu, Ruoyu Sun, Zhi-Quan Luo \n
-ICML 2024
 
 [https://nips.cc/virtual/2022/spotlight/65228 Adam Can Converge Without Any Modification on Update Rules]  \n
 *Yushun Zhang*, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo  \n
@@ -55,15 +43,29 @@ NeurIPS 2022
 *Yushun Zhang*, Congliang Chen,  Zhi-Quan Luo \n
 ICLR Blog Track 2022
 
+[https://openreview.net/forum?id=K_MD-PMTLtA When Expressivity Meets Trainability: Fewer than n Neurons Can Work]  \n
+Jiawei Zhang\*, *Yushun Zhang\* *, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo \n
+NeurIPS 2021
+
+== Research that I proudly participate in
+
+[https://arxiv.org/abs/2208.09900 Provable Adaptivity of Adam under Non-Uniform Smoothness]  \n
+Bohan Wang\*, *Yushun Zhang\**, Huishuai Zhang, Qi Meng, Ruoyu Sun, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen \n
+KDD 2024
+
+[https://arxiv.org/abs/2310.10505 ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models] \n
+Ziniu Li, Tian Xu, *Yushun Zhang*, Zhihang Lin, Yang Yu, Ruoyu Sun, Zhi-Quan Luo \n
+ICML 2024
+
+
+
 [https://openreview.net/forum?id=X0nrKAXu7g-  HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning]  \n
 Ziniu Li, Yingru Li, *Yushun Zhang*, Tong Zhang, Zhi-Quan Luo \n
 ICLR 2022 \n
 (This work is also selected as  Oral presentation at [https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=21865 NeurIPS workshop, 2021]) \n
 
 
-[https://openreview.net/forum?id=K_MD-PMTLtA When Expressivity Meets Trainability: Fewer than n Neurons Can Work]  \n
-Jiawei Zhang\*, *Yushun Zhang\* *, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo \n
-NeurIPS 2021
+
 
 [\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2020.1814794  Fast QLB algorithm and hypothesis tests in logistic model for ophthalmologic bilateral correlated data] \n
  Yiqi Lin\*, *Yushun Zhang\* *, Guoliang Tian, Changxing Ma \n
@@ -147,11 +149,10 @@ I serve as a reviewer for machine learning conferences including NeurIPS, ICLR, 
 
 == Experiences
 
+
 I spent a great time as an exchange undergraduate student at Mathematics department, UC San Diego, 2019 Spring.
 
-== CV
-View my curriculum vitae [files/my_cv_2.pdf here].
-
+I spent the best three years at the Shenzhen Foreign Language School, branch, 2009 - 2012.
 
 
 
