@@ -19,7 +19,7 @@ I'm a Ph.D student in School of Data Science at The Chinese University of Hong K
 Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). 
 
 
- My research focuses on optimization, deep learning, and especially, large language models. I aim to solve real and practical problems in these areas. 
+ My research focuses on optimization, deep learning, and especially, large language models. I aim to work on important and practical problems with optimization flavor. 
 
 == Research that I lead or co-lead
 
@@ -76,6 +76,16 @@ ICLR 2022 \n
 
 == Invited Talks
 
+*Oct 2024*: I gave a talk at U of Minnesota, hosted by [https://scholar.google.com/citations?user=qRnP-p0AAAAJ&hl=en Prof. Mingyi Hong]. Thanks Prof. Hong for the invitation!
+
+- Topic: Why Transformers Need Adam: A Hessian Perspective
+- Slides can be seen [files/1024_umntalk.pdf here (this is a >40 min version with Adam-mini included)]
+
+*Oct 2024*: I gave a talk at INFORMS Anneal Meeting, Seattle, hosted by [https://scholar.google.com/citations?user=7ubAY0UAAAAJ&hl=en Jianhao Ma]. Thanks Jianhao for the invitation!
+
+- Topic: Why Transformers Need Adam: A Hessian Perspective
+- Slides can be seen [files/spectrum_talk_informs.pdf here (this is a 15 min version)]
+
 *Sep 2023*: I gave a talk at Tsinghua University, hosted by [https://scholar.google.com/citations?user=zX7i1EkAAAAJ&hl=en Prof. Jian Li]. Thanks Prof. Li for the invitation!
 
 - Topic: Converge or Diverge? A Story of Adam
@@ -123,6 +133,10 @@ Scholarship Award for Excellence, Mathematics department, SUSTech (Top 10 studen
 ==== Reviewer
 
 I serve as a reviewer for machine learning conferences including NeurIPS, ICLR, ICML, COLT, AISTATS, as well as journals including JMLR and TMLR.
+
+==== Social Activities
+
+I hosted a session named [https://submissions.mirasmart.com/InformsAnnual2024/Itinerary/EventDetail.aspx?evt=956 "Optimization Issues in Recent AI Models"] at INFORMS Anneal Meeting, Oct, 2024.
 
 ==== Teaching Assistant (by time)
 
