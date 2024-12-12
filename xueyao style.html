@@ -1,357 +1,394 @@
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
 <!-- https://ibruce.info/2015/04/04/busuanzi/#more -->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+        <meta name="google-site-verification" content="p7SNRHPF7y83Q-nNBLkrxFhAAosW2t40unwTxByZ0vo" />
+        <meta charset="utf-8">
 
-<head>
-  <meta name=viewport content="width=device-width">
-  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <meta name="google-site-verification" content="p7SNRHPF7y83Q-nNBLkrxFhAAosW2t40unwTxByZ0vo" />
-  <meta charset="utf-8">
+        <style type="text/css">
+            /* Color scheme stolen from Sergey Karayev */
+            span.tag {
+                font-size: 11px;
+                color: #FFFFFF;
+                /* color: #07889b; */
+                background-color: #0076DF;
+                box-shadow: 2px 2px 1px #E0E0E0;
+                padding: 1px 5px 2px 5px;
+            }
 
-  <style type="text/css">
-    /* Color scheme stolen from Sergey Karayev */
+            span.wow {
+                font-size: 11px;
+                color: #FFFFFF;
+                /* color: #07889b; */
+                background-color: rgb(180, 16, 44);
+                box-shadow: 2px 2px 1px #E0E0E0;
+                padding: 1px 5px 2px 5px;
+            }
 
-    span.tag {
-      font-size: 11px;
-      color: #FFFFFF;
-      /* color: #07889b; */
-      background-color: #0076DF;
-      box-shadow: 2px 2px 1px #E0E0E0;
-      padding: 1px 5px 2px 5px;
-    }
+            a {
+                color: #1772d0;
+                /* color: #07889b; */
+                text-decoration: none;
+            }
 
-    span.wow {
-      font-size: 11px;
-      color: #FFFFFF;
-      /* color: #07889b; */
-      background-color: rgb(180, 16, 44);
-      box-shadow: 2px 2px 1px #E0E0E0;
-      padding: 1px 5px 2px 5px;
-    }
+            a.black {
+                color: #000000;
+                /* color: #07889b; */
+                text-decoration: none;
+            }
 
-    a {
-      color: #1772d0;
-      /* color: #07889b; */
-      text-decoration: none;
-    }
+            a:focus,
+            a:hover {
+                /* color: #e37222; #f09228; */
+                color: rgb(180, 16, 44);
+                text-decoration: none;
+            }
 
-    a.black {
-      color: #000000;
-      /* color: #07889b; */
-      text-decoration: none;
-    }
+            body,
+            td,
+            th,
+            tr,
+            p,
+            a {
+                font-family: 'Lato', Verdana, Helvetica, sans-serif;
+                font-size: 19px;
+            }
 
-    a:focus,
-    a:hover {
-      /* color: #e37222; #f09228; */
-      color: rgb(180, 16, 44);
-      text-decoration: none;
-    }
+            strong {
+                font-family: 'Lato', Verdana, Helvetica, sans-serif;
+                font-size: 16px;
+            }
 
-    body,
-    td,
-    th,
-    tr,
-    p,
-    a {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 16px
-    }
+            h2 {
+                color: rgb(180, 16, 44);
+                margin-top: 0.7em;
+                margin-bottom: 0.3em;
+                padding-bottom: 0.2em;
+                line-height: 1.0;
+                padding-top: 0.5em;
+                border-bottom: 1px solid #aaaaaa;
+            }
 
-    strong {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 16px;
-    }
+            heading {
+                font-family: 'Lato', Verdana, Helvetica, sans-serif;
+                font-size: 22px;
+                /* color: #e3225c; */
+                color: rgb(180, 16, 44);
+                /* color: rgb(117, 15, 109); */
+            }
 
-    h2 {
-      color: rgb(180, 16, 44);
-      margin-top: 0.7em;
-      margin-bottom: 0.3em;
-      padding-bottom: 0.2em;
-      line-height: 1.0;
-      padding-top: 0.5em;
-      border-bottom: 1px solid #aaaaaa;
-        }
-    heading {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 22px;
-      /* color: #e3225c; */
-      color: rgb(180, 16, 44);
-      /* color: rgb(117, 15, 109); */
-    }
-    
-    subheading {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 18px;
-      font-style: italic;
-      /* color: #e3225c; */
-      color: rgb(180, 16, 44);
-    }
+            subheading {
+                font-family: 'Lato', Verdana, Helvetica, sans-serif;
+                font-size: 18px;
+                font-style: italic;
+                /* color: #e3225c; */
+                color: rgb(180, 16, 44);
+            }
 
-    papertitle {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 16px;
-      font-weight: bold;
-    }
+            papertitle {
+                font-family: 'Lato', Verdana, Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+            }
 
-    name {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 32px;
-    }
+            name {
+                font-family: 'Lato', Verdana, Helvetica, sans-serif;
+                font-size: 32px;
+            }
 
-    .footer {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
-      opacity: 0.75;
-      color: #777;
-    }
+            .footer {
+                font-family: 'Lato', Verdana, Helvetica, sans-serif;
+                font-size: 14px;
+                opacity: 0.75;
+                color: #777;
+            }
 
-    .one {
-      width: 160px;
-      height: 160px;
-      position: relative;
-    }
+            .one {
+                width: 160px;
+                height: 160px;
+                position: relative;
+            }
 
-    .two {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
+            .two {
+                width: 160px;
+                height: 160px;
+                position: absolute;
+                transition: opacity .2s ease-in-out;
+                -moz-transition: opacity .2s ease-in-out;
+                -webkit-transition: opacity .2s ease-in-out;
+            }
 
-    .fade {
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
+            .fade {
+                transition: opacity .2s ease-in-out;
+                -moz-transition: opacity .2s ease-in-out;
+                -webkit-transition: opacity .2s ease-in-out;
+            }
 
-    span.highlight {
-      background-color: #ffffd0;
-    }
+            span.highlight {
+                background-color: #ffffd0;
+            }
 
-    span.artifact {
-      color: #6cb41b;
-      padding: 1px;
-    }
+            span.artifact {
+                color: #6cb41b;
+                padding: 1px;
+            }
 
-    span.underline {
-      border-bottom: 1px solid black;
-      padding-bottom: 1px;
-    }
+            span.underline {
+                border-bottom: 1px solid black;
+                padding-bottom: 1px;
+            }
 
-    span.tldr {
-      color: #555555;
-    }
+            span.tldr {
+                color: #555555;
+            }
 
-    em.highlight {
-      color: #e37222;
-    }
-  </style>
-  <link rel="icon" type="images/png" href="images/cuhk.png">
-  <title>Yushun Zhang</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet'
-    type='text/css'>
-</head>
+            em.highlight {
+                color: #e37222;
+            }
+        </style>
+        <link rel="icon" type="images/png" href="images/cuhk.png">
+        <title>Yushun Zhang</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    </head>
 
-<body>
-  <table width="960" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tr>
-      <td>
-        <!-- Intro Begin -->
-        <table width="100%" align="left" border="0" cellspacing="0" cellpadding="12" style="table-layout:fixed;">
-          <colgroup>
-            <col span="1" style="width: 22%;">
-            <col span="1" style="width: 78%;">
-          </colgroup>
-          <tr>
-            <td valign="middle">
-              <img src="images/red.jpeg" height="220px">
-            </td>
-            <td valign="middle">
-              <p align="left">
-                <name>Yushun Zhang (张雨舜)</name>
-              </p>
-              <p>
-                Ph.D. student, <br>
-                <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, <br>
-                <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen, China</a>
-              </p>
-              <p align=left>
-                <!-- E-mail: <span>xueyao_98 [AT] foxmail [DOT] com</span> -->
-                E-mail: <span>yushunzhang [AT] link.cuhk.edu.cn</span>
-                <!-- or <span class="underline">zhangxueyao19s@ict.ac.cn</span> -->
-              </p>
-              <p align=left>
-                <a href="https://scholar.google.com/citations?user=dHUiyDkAAAAJ&hl=en">Google Scholar</a>
-                &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/zyushun">GitHub</a>
-                &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                <a href="https://twitter.com/ericzhang0410"> Twitter </a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                <!-- <br> -->
-                <a href="https://m.weibo.cn/u/5943315585?t=0&luicode=10000011&lfid=231583">Weibo</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                <a href="https://www.instagram.com/ericzhang0410/">Instagram</a>
-                <!-- &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; -->
-                <!-- &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; -->
-                <!-- <a href="https://weibo.com/u/5831484448">Weibo</a> &nbsp;&nbsp;&nbsp; -->
-              </p>
-            </td>
-          </tr>
+    <body>
+        <table width="960" border="0" align="center" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <!-- Intro Begin -->
+                    <table width="100%" align="left" border="0" cellspacing="0" cellpadding="12" style="table-layout:fixed;">
+                        <colgroup>
+                            <col span="1" style="width: 22%;">
+                            <col span="1" style="width: 78%;">
+                        </colgroup>
+                        <tr>
+                            <td valign="middle">
+                                <img src="images/red.jpeg" height="220px">
+                            </td>
+                            <td valign="middle">
+                                <p align="left">
+                                    <name>Yushun Zhang (张雨舜)</name>
+                                </p>
+                                <p>
+                                    Ph.D. student, <br>
+                                    <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, <br>
+                                    <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen, China</a>
+                                </p>
+                                <p align="left">
+                                    <!-- E-mail: <span>xueyao_98 [AT] foxmail [DOT] com</span> -->
+                                    Email: <span>yushunzhang [AT] link.cuhk.edu.cn</span>
+                                    <!-- or <span class="underline">zhangxueyao19s@ict.ac.cn</span> -->
+                                </p>
+                                <p align="left">
+                                    <a href="https://scholar.google.com/citations?user=dHUiyDkAAAAJ&hl=en">Google Scholar</a>
+                                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                                    <a href="https://github.com/zyushun">GitHub</a>
+                                    &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                                    <a href="https://twitter.com/ericzhang0410"> Twitter </a> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                                    <!-- <br> -->
+                                    <a href="https://m.weibo.cn/u/5943315585?t=0&luicode=10000011&lfid=231583">Weibo</a>
+                                    <!-- &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; -->
+                                    <!-- <a href="https://www.instagram.com/ericzhang0410/">Instagram</a> -->
+                                    <!-- &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; -->
+                                    <!-- &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; -->
+                                    <!-- <a href="https://weibo.com/u/5831484448">Weibo</a> &nbsp;&nbsp;&nbsp; -->
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+  
+                    <h2>About me</h2>
+                    <p>I'm a Ph.D student in School of Data Science at The Chinese University of Hong Kong, Shenzhen, China. I'm very proud to be advised by <a href="https://scholar.google.com/citations?user=dW3gcXoAAAAJ&amp;hl=en">Prof. Zhi-Quan (Tom) Luo</a>.  I’m also very fortunate to work closely with <a href="https://ruoyus.github.io">Prof. Ruoyu Sun</a>. Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). </p>
+                    <p>My research focuses on optimization, deep learning, and especially, large language models. I aim to work on important and practical problems with optimization flavor. </p>
+
+                    <h2> Biography</h2>
+                    <ul>
+                        <li><b>2019 - Present:</b> Ph.D. student at The Chinese University of Hong Kong, Shenzhen </li>
+                        <li><b>2015 - 2019:</b> B.Sc., Southern University of Science and Technology</li>
+                        <li><b>2012 - 2015:</b> Shenzhen Foreign Language School</li>
+                        <li><b>2009 - 2012:</b> Shenzhen Foreign Language School, Branch</li>
+                    </ul>
+
+                    <h2>Research that I lead or co-lead</h2>
+                    <p><a href="http://arxiv.org/abs/2406.16793">Adam-mini:  Use Fewer Learning Rates To Gain More</a> <br />
+                    <b>Yushun Zhang* </b>, Congliang Chen*,  Ziniu Li, Tian Ding, Chenwei Wu, Diederik P. Kingma, Yinyu Ye, Zhi-Quan Luo, Ruoyu Sun <br />
+                    Preprint</p>
+                    <p><a href="https://arxiv.org/abs/2402.16788">Why Transformers Need Adam: A Hessian Perspective</a> <br />
+                    <b>Yushun Zhang</b>, Congliang Chen, Tian Ding, Ziniu Li, Ruoyu Sun, Zhi-Quan Luo <br />
+                    NeurIPS 2024</p>
+                    <p><a href="https://nips.cc/virtual/2022/spotlight/65228">Adam Can Converge Without Any Modification on Update Rules</a>  <br />
+                    <b>Yushun Zhang</b>, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo  <br />
+                    NeurIPS 2022 </p>
+                    <p><a href="https://iclr-blog-track.github.io/2022/03/25/does-adam/">Does Adam Converge and When?</a> <br />
+                    <b>Yushun Zhang</b>, Congliang Chen,  Zhi-Quan Luo <br />
+                    ICLR Blog Track 2022</p>
+                    <p><a href="https://openreview.net/forum?id=K_MD-PMTLtA">When Expressivity Meets Trainability: Fewer than n Neurons Can Work</a>  <br />
+                    Jiawei Zhang*, <b>Yushun Zhang* </b>, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo <br />
+                    NeurIPS 2021</p>
+
+                    <h2>Research that I participate in</h2>
+                    <p><a href="https://arxiv.org/abs/2310.10505">ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models</a> <br />
+                    Ziniu Li, Tian Xu, <b>Yushun Zhang</b>, Zhihang Lin, Yang Yu, Ruoyu Sun, Zhi-Quan Luo <br />
+                    ICML 2024</p>
+                    <p><a href="https://arxiv.org/abs/2208.09900">Provable Adaptivity of Adam under Non-Uniform Smoothness</a>  <br />
+                    Bohan Wang*, <b>Yushun Zhang*</b>, Huishuai Zhang, Qi Meng, Ruoyu Sun, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen <br />
+                    KDD 2024</p>
+                    <p><a href="https://openreview.net/forum?id=X0nrKAXu7g-">HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning</a>  <br />
+                    Ziniu Li, Yingru Li, <b>Yushun Zhang</b>, Tong Zhang, Zhi-Quan Luo <br />
+                    ICLR 2022 <br />
+                    (This work is also selected as  Oral presentation at <a href="https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=21865">NeurIPS workshop, 2021</a>) <br /></p>
+                    <p><a href="\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2020.1814794">Fast QLB algorithm and hypothesis tests in logistic model for ophthalmologic bilateral correlated data</a> <br />
+                    Yiqi Lin*, <b>Yushun Zhang* </b>, Guoliang Tian, Changxing Ma <br />
+                    Journal of Biopharmaceutical Statistics 2020 <br />
+                    (This work is done in SUSTech) </p>
+
+
+                    <h2>Invited Talks</h2>
+                    <p><b>Dec 2024:</b> I gave a talk at Tsinghua University, hosted by <a href="https://kaifeng.ac/">Kaifeng Lyu</a>. Thanks Kaifeng for the invitation!</p>
+                    <ul>
+                        <li>
+                            <p>Topic: Adam for Transformers: Why and Why Not</p>
+                        </li>
+                        <li>
+                            <p>Slides can be seen <a href="files/1209_tsinghua_adamtalk.pdf">here </a></p>
+                        </li>
+                    </ul>
+                    <p><b>Oct 2024:</b> I gave a talk at University of Minnesota, hosted by <a href="https://scholar.google.com/citations?user=qRnP-p0AAAAJ&amp;hl=en">Prof. Mingyi Hong</a>. Thanks Prof. Hong for the invitation!</p>
+                    <ul>
+                        <li>
+                            <p>Topic: Why Transformers Need Adam: A Hessian Perspective</p>
+                        </li>
+                        <li>
+                            <p>Slides can be seen <a href="files/1024_umntalk.pdf">here (this is a &gt;40 min version with Adam-mini included)</a></p>
+                        </li>
+                    </ul>
+                    <p><b>Oct 2024:</b> I gave a talk at INFORMS Anneal Meeting, Seattle, hosted by <a href="https://scholar.google.com/citations?user=7ubAY0UAAAAJ&amp;hl=en">Jianhao Ma</a>. Thanks Jianhao for the invitation!</p>
+                    <ul>
+                        <li>
+                            <p>Topic: Why Transformers Need Adam: A Hessian Perspective</p>
+                        </li>
+                        <li>
+                            <p>Slides can be seen <a href="files/spectrum_talk_informs.pdf">here (this is a 15 min version)</a></p>
+                        </li>
+                    </ul>
+                    <p><b>Sep 2023:</b> I gave a talk at Tsinghua University, hosted by <a href="https://scholar.google.com/citations?user=zX7i1EkAAAAJ&amp;hl=en">Prof. Jian Li</a>. Thanks Prof. Li for the invitation!</p>
+                    <ul>
+                        <li>
+                            <p>Topic: Converge or Diverge? A Story of Adam</p>
+                        </li>
+                        <li>
+                            <p>Slides can be seen <a href="files/Adam_talk_Tsinghua.pdf">here</a></p>
+                        </li>
+                    </ul>
+                    <p><b>Jan 2023:</b> I gave a talk at Google Brain, hosted by <a href="https://scholar.google.nl/citations?user=yyIoQu4AAAAJ&amp;hl=en">Dr. Diederik P. Kingma</a>. Thanks Dr. Kingma for the invitation! </p>
+                    <ul>
+                        <li>
+                            <p>Topic: Adam Can Converge Without Any Modification on Update Rules </p>
+                        </li>
+                        <li>
+                            <p>Slides can be seen  <a href="files/Adam_talk_google_short.pdf">here</a></p>
+                        </li>
+                    </ul>
+
+
+                    <h2>Awards</h2>
+                    <p><b>Dec 2023:</b> Duan Yongping Outstanding Resesearch Award (1st place)</p>
+                    <p><b>Dec 2023:</b> Teaching Assistant Award, School of Data Science</p>
+                    <p><b>Aug 2022:</b> Best Paper Presentation Award (1st place), <a href="https://mp.weixin.qq.com/s/IBED0dwbegS0PZQMuk656Q">2nd Doctoral and Postdoctoral Daoyuan Academic Forum</a><br /></p>
+                    <ul>
+                        <li>
+                            <p>Topic: Does Adam Converge and When?<br /></p>
+                        </li>
+                        <li>
+                            <p>Slides can be seen  <a href="files/Adam_talk_sribd.pptx">here</a>.<br /></p>
+                        </li>
+                        <li>
+                            <p>A short version of this talk can be viewed <a href="https://nips.cc/virtual/2022/poster/53721">here</a>.</p>
+                        </li>
+                    </ul>
+                    <p><b>Jul 2021:</b>  Best Paper Presentation Award (1st place), <a href="https://www.tbsi.edu.cn/wolt/index.html">3rd Tsinghua-Berkeley workshop on Learning Theory</a><br /></p>
+                    <ul>
+                        <li>
+                            <p>Topic: When Expressivity Meets Trainability: Width &lt; n Can Work<br /></p>
+                        </li>
+                        <li>
+                            <p>A short version of this talk can be viewed <a href="https://slideslive.com/38970555/when-expressivity-meets-trainability-fewer-than-n-neurons-can-work?ref=recommended">here</a>.</p>
+                        </li>
+                    </ul>
+                    <p><b>Jun 2019:</b>  Magna cum laude of SUSTech</p>
+                    <p><b>Jun 2019:</b>  Outstanding graduation thesis, SUSTech</p>
+                    <p><b>Sep 2018:</b>  Scholarship Award for Excellence, Mathematics department, SUSTech (Top 10 students)</p>
+
+
+                    <h2>Services</h2>
+                    <h4>Reviewer</h4>
+                    <p>I serve as a reviewer for machine learning conferences including NeurIPS, ICLR, ICML, COLT, AISTATS, as well as journals including JMLR and TMLR.</p>
+                    <h4>Social Activities</h4>
+                    <p>I hosted a session named <a href="https://submissions.mirasmart.com/InformsAnnual2024/Itinerary/EventDetail.aspx?evt=956">&ldquo;Optimization Issues in Recent AI Models&rdquo;</a> at INFORMS Anneal Meeting, Oct, 2024.</p>
+                    <h4>Teaching Assistant (by time)</h4>
+                    <ul>
+                        <li>
+                            <p>DDA4300: Optimization for Machine Learning, by Prof. Yinyu Ye (2023 Spring)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>DDA 6060: Machine Learning, by Prof. Hongyuan Zha & Prof. Shuang Li (2022 Spring)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>DDA 4002: Multivariate Statistics, by Prof. Zhaoyuan Li (2021 Autumn)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>DDA 4250: Mathematics for Deep Learning, by Prof. Arnulf Jentzen (2021 Spring)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>MFE 5100: Optimization, by Prof. Zizhuo Wang (2020 Autumn)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>STA 2002: Probalility and Statistics, by Prof. Xinyun Chen  (2020 Summer)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>CSC 4020: Fundationals of Machine Learning, by Prof. Hongyuan Zha (2020 Spring)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>MAT 2040: Linear algebra, by Prof. Shenghao Yang (2019 Autumn)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>MAT 7035: Computational Statistics, by Prof. Guoliang Tian (SUSTech) (2018 Autumn)</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>MA 204: Mathematical Statistics, by Prof. Guoliang Tian (SUSTech)  (2018 Spring)</p>
+                        </li>
+                    </ul>
+                    <h2>Experiences</h2>
+                    <p><b>2019 Spring:</b>  I spent a great time as an exchange undergraduate student at Mathematics department, UC San Diego.</p>
+                    <p><b>2009 - 2012:</b>  I spent the best three years at the Shenzhen Foreign Language School, branch.</p>
+                    <br>
+                    <br>
+                </td>
+            </tr>
         </table>
-        <!-- Intro End -->
-        <h2>About me</h2>
-        <p>I'm a Ph.D student in School of Data Science at The Chinese University of Hong Kong, Shenzhen, China. I'm very proud to be advised by <a href="https://scholar.google.com/citations?user=dW3gcXoAAAAJ&amp;hl=en">Prof. Zhi-Quan (Tom) Luo</a>.  I’m also very fortunate to work closely with <a href="https://ruoyus.github.io">Prof. Ruoyu Sun</a>. 
-        Previously, I did my undergraduate study in the Department of Mathematics at Southern University of Science and Technology (SUSTech). </p>
-        <p>My research focuses on optimization, deep learning, and especially, large language models. I aim to work on important and practical problems with optimization flavor. </p>
-
-        <h2> Biography</h2>
-        <ul>
-          <li>2019 - Present: Ph.D. student at The Chinese University of Hong Kong, Shenzhen </li>
-          <li>2015 - 2019: B.Sc., Southern University of Science and Technology</li>
-          <li>2012 - 2015: Shenzhen Foreign Language School</li>
-          <li>2009 - 2012: Shenzhen Foreign Language School, Branch</li>
-        </ul>
-
-
-        <h2>Research that I lead or co-lead</h2>
-        <p><a href="http://arxiv.org/abs/2406.16793">Adam-mini:  Use Fewer Learning Rates To Gain More</a> <br />
-        <b>Yushun Zhang* </b>, Congliang Chen*,  Ziniu Li, Tian Ding, Chenwei Wu, Diederik P. Kingma, Yinyu Ye, Zhi-Quan Luo, Ruoyu Sun <br />
-        Preprint</p>
-        <p><a href="https://arxiv.org/abs/2402.16788">Why Transformers Need Adam: A Hessian Perspective</a> <br />
-        <b>Yushun Zhang</b>, Congliang Chen, Tian Ding, Ziniu Li, Ruoyu Sun, Zhi-Quan Luo <br />
-        NeurIPS 2024</p>
-        <p><a href="https://nips.cc/virtual/2022/spotlight/65228">Adam Can Converge Without Any Modification on Update Rules</a>  <br />
-        <b>Yushun Zhang</b>, Congliang Chen, Naichen Shi, Ruoyu Sun,  Zhi-Quan Luo  <br />
-        NeurIPS 2022 </p>
-        <p><a href="https://iclr-blog-track.github.io/2022/03/25/does-adam/">Does Adam Converge and When?</a> <br />
-        <b>Yushun Zhang</b>, Congliang Chen,  Zhi-Quan Luo <br />
-        ICLR Blog Track 2022</p>
-        <p><a href="https://openreview.net/forum?id=K_MD-PMTLtA">When Expressivity Meets Trainability: Fewer than n Neurons Can Work</a>  <br />
-        Jiawei Zhang*, <b>Yushun Zhang* </b>, Mingyi Hong, Ruoyu Sun, Zhi-Quan Luo <br />
-        NeurIPS 2021</p>
-        <h2>Research that I proudly participate in</h2>
-        <p><a href="https://arxiv.org/abs/2310.10505">ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models</a> <br />
-        Ziniu Li, Tian Xu, <b>Yushun Zhang</b>, Zhihang Lin, Yang Yu, Ruoyu Sun, Zhi-Quan Luo <br />
-        ICML 2024</p>
-        <p><a href="https://arxiv.org/abs/2208.09900">Provable Adaptivity of Adam under Non-Uniform Smoothness</a>  <br />
-        Bohan Wang*, <b>Yushun Zhang*</b>, Huishuai Zhang, Qi Meng, Ruoyu Sun, Zhi-Ming Ma, Zhi-Quan Luo, Tie-Yan Liu, Wei Chen <br />
-        KDD 2024</p>
-        <p><a href="https://openreview.net/forum?id=X0nrKAXu7g-">HyperDQN: A Randomized Exploration Method for Deep Reinforcement Learning</a>  <br />
-        Ziniu Li, Yingru Li, <b>Yushun Zhang</b>, Tong Zhang, Zhi-Quan Luo <br />
-        ICLR 2022 <br />
-        (This work is also selected as  Oral presentation at <a href="https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=21865">NeurIPS workshop, 2021</a>) <br /></p>
-        <p><a href="\href{https://www.tandfonline.com/doi/abs/10.1080/10543406.2020.1814794">Fast QLB algorithm and hypothesis tests in logistic model for ophthalmologic bilateral correlated data</a> <br />
-        Yiqi Lin*, <b>Yushun Zhang* </b>, Guoliang Tian, Changxing Ma <br />
-        Journal of Biopharmaceutical Statistics 2020 <br />
-        (This work is done in Sustech) </p>
-        <h2>Invited Talks</h2>
-        <p><b>Oct 2024</b>: I gave a talk at U of Minnesota, hosted by <a href="https://scholar.google.com/citations?user=qRnP-p0AAAAJ&amp;hl=en">Prof. Mingyi Hong</a>. Thanks Prof. Hong for the invitation!</p>
-        <ul>
-        <li><p>Topic: Why Transformers Need Adam: A Hessian Perspective</p>
-        </li>
-        <li><p>Slides can be seen <a href="files/1024_umntalk.pdf">here (this is a &gt;40 min version with Adam-mini included)</a></p>
-        </li>
-        </ul>
-        <p><b>Oct 2024</b>: I gave a talk at INFORMS Anneal Meeting, Seattle, hosted by <a href="https://scholar.google.com/citations?user=7ubAY0UAAAAJ&amp;hl=en">Jianhao Ma</a>. Thanks Jianhao for the invitation!</p>
-        <ul>
-        <li><p>Topic: Why Transformers Need Adam: A Hessian Perspective</p>
-        </li>
-        <li><p>Slides can be seen <a href="files/spectrum_talk_informs.pdf">here (this is a 15 min version)</a></p>
-        </li>
-        </ul>
-        <p><b>Sep 2023</b>: I gave a talk at Tsinghua University, hosted by <a href="https://scholar.google.com/citations?user=zX7i1EkAAAAJ&amp;hl=en">Prof. Jian Li</a>. Thanks Prof. Li for the invitation!</p>
-        <ul>
-        <li><p>Topic: Converge or Diverge? A Story of Adam</p>
-        </li>
-        <li><p>Slides can be seen <a href="files/Adam_talk_Tsinghua.pdf">here</a></p>
-        </li>
-        </ul>
-        <p><b>Jan 2023</b>: I gave a talk at Google Brain, hosted by <a href="https://scholar.google.nl/citations?user=yyIoQu4AAAAJ&amp;hl=en">Dr. Diederik P. Kingma</a>. Thanks Dr. Kingma for the invitation! </p>
-        <ul>
-        <li><p>Topic: Adam Can Converge Without Any Modification on Update Rules </p>
-        </li>
-        <li><p>Slides can be seen  <a href="files/Adam_talk_google_short.pdf">here</a></p>
-        </li>
-        </ul>
-        <h2>Awards (By time)</h2>
-        <p>Duan Yongping Outstanding Resesearch Award (1st place), 2023</p>
-        <p>Teaching Assistant Award, School of Data Science, 2023</p>
-        <p>Best Paper Presentation Award (1st place), <a href="https://mp.weixin.qq.com/s/IBED0dwbegS0PZQMuk656Q">2nd Doctoral and Postdoctoral Daoyuan Academic Forum, 2022</a><br /></p>
-        <ul>
-        <li><p>Topic: Does Adam Converge and When?<br /></p>
-        </li>
-        <li><p>Slides can be seen  <a href="files/Adam_talk_sribd.pptx">here</a>.<br /></p>
-        </li>
-        <li><p>A short version of this talk can be viewed <a href="https://nips.cc/virtual/2022/poster/53721">here</a>.</p>
-        </li>
-        </ul>
-        <p>Best Paper Presentation Award (1st place), <a href="https://www.tbsi.edu.cn/wolt/index.html">3rd Tsinghua-Berkeley workshop on Learning Theory, 2021</a><br /></p>
-        <ul>
-        <li><p>Topic: When Expressivity Meets Trainability: Width &lt; n Can Work<br /></p>
-        </li>
-        <li><p>A short version of this talk can be viewed <a href="https://slideslive.com/38970555/when-expressivity-meets-trainability-fewer-than-n-neurons-can-work?ref=recommended">here</a>.</p>
-        </li>
-        </ul>
-        <p>Magna cum laude of SUSTech, 2019</p>
-        <p>Outstanding graduation thesis, SUSTech, 2019</p>
-        <p>Scholarship Award for Excellence, Mathematics department, SUSTech (Top 10 students) , 2018</p>
-        <h2>Services</h2>
-        <h4>Reviewer</h4>
-        <p>I serve as a reviewer for machine learning conferences including NeurIPS, ICLR, ICML, COLT, AISTATS, as well as journals including JMLR and TMLR.</p>
-        <h4>Social Activities</h4>
-        <p>I hosted a session named <a href="https://submissions.mirasmart.com/InformsAnnual2024/Itinerary/EventDetail.aspx?evt=956">&ldquo;Optimization Issues in Recent AI Models&rdquo;</a> at INFORMS Anneal Meeting, Oct, 2024.</p>
-        <h4>Teaching Assistant (by time)</h4>
-        <ul>
-        <li><p>DDA4300: Optimization for Machine Learning, by Prof. Yinyu Ye (2023 Spring)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>DDA 6060: Machine Learning, by Prof. Hongyuan Zha & Prof. Shuang Li (2022 Spring)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>DDA 4002: Multivariate Statistics, by Prof. Zhaoyuan Li (2021 Autumn)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>DDA 4250: Mathematics for Deep Learning, by Prof. Arnulf Jentzen (2021 Spring)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>MFE 5100: Optimization, by Prof. Zizhuo Wang (2020 Autumn)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>STA 2002: Probalility and Statistics, by Prof. Xinyun Chen  (2020 Summer)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>CSC 4020: Fundationals of Machine Learning, by Prof. Hongyuan Zha (2020 Spring)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>MAT 2040: Linear algebra, by Prof. Shenghao Yang (2019 Autumn)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>MAT 7035: Computational Statistics, by Prof. Guoliang Tian (SUSTech) (2018 Autumn)</p>
-        </li>
-        </ul>
-        <ul>
-        <li><p>MA 204: Mathematical Statistics, by Prof. Guoliang Tian (SUSTech)  (2018 Spring)</p>
-        </li>
-        </ul>
-        <h2>Experiences</h2>
-        <p>I spent a great time as an exchange undergraduate student at Mathematics department, UC San Diego, 2019 Spring.</p>
-        <p>I spent the best three years at the Shenzhen Foreign Language School, branch, 2009 - 2012.</p>
-        </td>
-        </tr>
-        </table>
-        </body>
-        </html>
+    </body>
+</html>
